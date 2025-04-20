@@ -420,3 +420,13 @@ footer p a{
 	}
 
 }
+.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #222; /* O el color de fondo que uses */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 👉 Esto centra verticalmente los elementos */
+    padding: 20px 100px; /* Ajusta según tu diseño */
+}
